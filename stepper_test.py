@@ -72,12 +72,12 @@ def Step8():
 # Volle Umdrehung    
 for i in range (512):    
     Step1()
-    Step2()
     Step3()
+    Step2()
     Step4()
-    Step5()
+    Step3()
     Step6()
-    Step7()
+    Step5()
     Step8()  
     print i
 
