@@ -72,6 +72,13 @@ def Step8():
 # Volle Umdrehung    
 for i in range (512):    
     Step1()
+    Step2()
+    Step3()
+    Step4()
+    Step5()
+    Step6()
+    Step7()
+    Step8()
     print i
 
 GPIO.cleanup()
