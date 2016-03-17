@@ -10,7 +10,7 @@ C=24
 D=25
 time = 0.005
 
-# Pins aus Ausgänge definieren
+# Pins aus Ausgaenge definieren
 GPIO.setup(A,GPIO.OUT)
 GPIO.setup(B,GPIO.OUT)
 GPIO.setup(C,GPIO.OUT)
