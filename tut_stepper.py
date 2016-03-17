@@ -3,10 +3,10 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-coil_A_1_pin = 25 # pink
-coil_A_2_pin = 24 # orange
-coil_B_1_pin = 23 # blue
-coil_B_2_pin = 18 # yellow
+coil_A_1_pin = 18 # pink
+coil_A_2_pin = 23 # orange
+coil_B_1_pin = 24 # blue
+coil_B_2_pin = 25 # yellow
 
 # adjust if different
 StepCount = 8
