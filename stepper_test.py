@@ -8,7 +8,7 @@ A=18
 B=23
 C=24
 D=25
-time = 0.005
+time = 0.001
 
 # Pins aus Ausgaenge definieren
 GPIO.setup(A,GPIO.OUT)
