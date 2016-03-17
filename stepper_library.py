@@ -30,9 +30,18 @@ class Motor(object):
         self.deg_per_step = 5.625 / 64  # for half-step drive (mode 3)
         self.steps_per_rev = int(360 / self.deg_per_step)  # 4096
         self.step_angle = 0  # Assume the way it is pointing is zero degrees
-        for p in pins:
-            GPIO.setup(p, GPIO.OUT)
-            GPIO.output(p, 0)
+        
+        GPIO.setup(18, GPIO.OUT)
+        GPIO.output(18, 0)
+        
+        GPIO.setup(23, GPIO.OUT)
+        GPIO.output(23, 0)
+        
+        GPIO.setup(24, GPIO.OUT)
+        GPIO.output(24, 0)
+        
+        GPIO.setup(25, GPIO.OUT)
+        GPIO.output(25, 0)
 
     def _set_rpm(self, rpm):
         """Set the turn speed in RPM."""
