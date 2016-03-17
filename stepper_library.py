@@ -10,6 +10,8 @@
 from time import sleep
 import RPi.GPIO as GPIO
 
+GPIO.cleanup()
+
 class Motor(object):
     def __init__(self, pins, mode=3):
         """Initialise the motor object.
